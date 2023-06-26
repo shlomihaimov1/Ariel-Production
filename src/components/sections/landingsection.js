@@ -15,7 +15,7 @@ export default function LandingSection() {
 
     return (
         <div>
-            <section id='landingsection' className='main-section'>
+            <section id='landingsection' className='main-section' >
                 <NavBar />
 
                 <Container className='main-container landing-section-container'>
