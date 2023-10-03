@@ -33,9 +33,20 @@
     font-weight: 700;
     margin-right: 10%;
     margin-bottom: 3.5%;
+    text-shadow: 0 0 13px #fff, 0 0 3px #fff, 0 0 13px #141413, 0 0 19px #000000, 0 0 58px #000000;
+    /* text-shadow: 0 0 3px #fff, 0 0 2px #fff, 0 0 6px #2300ff, 0 0 10px #2300ff, 0 0 3px #2300ff; */
 }
 
 .sub-title {
+    color: white;
+    font-size: 110%;
+    font-weight: 600;
+    margin-right: 10%;
+    width: 90%;
+    text-decoration: underline;
+}
+
+.landing-section-icons {
     color: white;
     font-size: 110%;
     font-weight: 600;
@@ -121,7 +132,7 @@
 }
   
 .nav-item {
-    margin: 0 1rem;
+    margin: 0 0.6rem;
 }
   
 .nav-links {
@@ -129,11 +140,16 @@
     text-decoration: none;
     padding: 0.5rem;
     transition: all 0.3s ease;
+    background-color: #fff;
+    color: #333 !important;
+    border-radius: 5px;
 }
   
 .nav-links:hover {
-    background-color: #fff;
-    color: #333 !important;
+    background-color: #333;
+    color: white !important;
+    /* border: 1px solid white; */
+    transition: all 500ms ease;
 }
 
 
@@ -424,4 +440,50 @@
     line-height: 120%;
     display: list-item;
     margin-bottom: 3%;
+}
+
+.cover-wrapper {
+    padding: 10%;
+    /* position: relative; */
+}
+
+.cover-wrapper-parallax {
+    padding: 10% 0;
+}
+
+.cover-button-prev {
+    position: fixed;
+    z-index: 100000000;
+    bottom: 45%;
+    left: 2%;
+}
+
+.cover-button-next {
+    position: fixed;
+    z-index: 100000000;
+    bottom: 45%;
+    right: 2%;
+}
+
+.cover-button {
+    border: none;
+    color: white;
+    /* background-color: #f5f9f89c; */
+    border-radius: 5px;
+    height: 20vh;
+    font-size: 200%;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.cover-button:hover {
+    background-color: #f5f9f8c4;
+    transition: all 500ms ease;
+}
+
+.cover-main-title {
+    text-align: center;
+    color: black;
+    font-size: 2.25em;
+    padding: 5% 0;
 }

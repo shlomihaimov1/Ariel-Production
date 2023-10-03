@@ -26,7 +26,17 @@ export default function LandingSection() {
                     <Row className='row sub-container-intro'>
                         <p className='main-title'>Ariel Productions</p>
                         <p className='sub-title'>אולפן הקלטות המתמחה בהקלטת שירים, ברכות, דרשות, ברכות כלה, כתיבה והלחנה.</p>
+                        
+                        {/* <!-- Social links --> */}
+                        <div className="footer-social landing-section-icons">
+                            <a href="https://www.youtube.com/channel/UC1uqMZI5CLmWaqhjkkLaw_w" target="_blank" title="Youtube"><i className="fab fa-youtube fa-fw"></i></a>
+                            <a href="https://www.facebook.com/ariel.zurayev" target="_blank" title="Facebook"><i className="fab fa-facebook-f fa-fw"></i></a>
+                            <a href="https://www.instagram.com/ariel_zurayev/" target="_blank" title="Instagram"><i className="fab fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/@ariel.zur?_t=8gCSnWhuq01&_r=1" target="_blank" title="Tiktok"><i className="fab fa-tiktok"></i></a>
+                            <a href="https://wa.me/972542662513"  target="_blank" title="Whatsapp"><i className="fab fa-whatsapp"></i></a>
+                        </div>
                     </Row>
+
                 </Container>
 
                 

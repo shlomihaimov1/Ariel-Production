@@ -19,7 +19,10 @@ export default function Navbar() {
                         <a className="nav-link nav-links" href="/#about">אודות</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link nav-links" href="/#pricing">מחירים ומבצעים</a>
+                        <a className="nav-link nav-links" href="/#pricing">תהליך ההקלטה</a>
+                        </li>
+                        <li className="nav-item">
+                        <a className="nav-link nav-links" href="/#covers">קאברים</a>
                         </li>
                         <li className="nav-item">
                         <a className="nav-link nav-links" href="/#contact">צור קשר</a>

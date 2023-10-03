@@ -70,7 +70,7 @@ const Contact = (props) => {
                             כתובת אימייל
                         </h5>
                         <p>
-                            <a href="mailto:zurayevariel@gmail.com">zurayevariel@gmail.com</a>
+                            <a href="mailto:ariel1098765@gmail.com">ariel1098765@gmail.com</a>
                         </p>
                         
                         <h5>

@@ -50,7 +50,7 @@ function App() {
         setTimeout(() =>{
           document.getElementById('contact-popup').style.display = 'block';
           document.getElementById('contact-popup').style.animation = 'fadeInContact 0.5s';
-        }, 2000);
+        }, 1000);
 
         // Scroll spy    
         if (window.location.pathname === '/') {

@@ -56,17 +56,32 @@ const Clients = (props) => {
                             </a>
                         </SwiperSlide>
 
-                        {/* <!-- Client 3 --> */}
-                        <SwiperSlide className="client">
+                         {/* <!-- Client 8 --> */}
+                         <SwiperSlide className="client">
                             <a href="#">
-                                <img src="../assets/images/content/companys/ort.png" alt="Client 3" />
+                                <img src="../assets/images/content/companys/mor.jpeg" alt="Mor Reviey" />
                             </a>
                         </SwiperSlide>
-
+                        
                         {/* <!-- Client 4 --> */}
                         <SwiperSlide className="client">
                             <a href="#">
                                 <img src="../assets/images/content/companys/radiosol.png" alt="Client 4" />
+                            </a>
+                        </SwiperSlide>
+                    
+
+                        {/* <!-- Client 9 --> */}
+                        <SwiperSlide className="client">
+                            <a href="#">
+                                <img src="../assets/images/content/companys/shaked.jpeg" alt="Shaked komemy" />
+                            </a>
+                        </SwiperSlide>
+
+                        {/* <!-- Client 3 --> */}
+                        <SwiperSlide className="client">
+                            <a href="#">
+                                <img src="../assets/images/content/companys/ort.png" alt="Client 3" />
                             </a>
                         </SwiperSlide>
 
@@ -91,12 +106,7 @@ const Clients = (props) => {
                             </a>
                         </SwiperSlide>
 
-                        {/* <!-- Client 8 --> */}
-                        {/* <SwiperSlide className="client">
-                            <a href="#">
-                                <img src="../assets/images/content/companys/.png" alt="Client 8" />
-                            </a>
-                        </SwiperSlide> */}
+                       
 
                     </Swiper>
 

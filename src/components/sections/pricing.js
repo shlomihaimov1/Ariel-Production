@@ -15,7 +15,7 @@ export default function LandingSection() {
     return (
         <div>
             <section id='pricing' className='pricing'>
-                <h3 className='pricing-main-title'>מחירים ומבצעים</h3>
+                <h3 className='pricing-main-title'>תהליך ההקלטה</h3>
                 <p className='pricing-main-sub-title'>לבירור מומלץ לשוחח איתי טלפונית</p>
 
                 <div className='mask-pricing'>
@@ -23,7 +23,7 @@ export default function LandingSection() {
                         <img className='batul1' src='../assets/images/content/ariel3.jpg'></img>
                     </div>
                     <div className='pricing-wrapper pricing-content'>
-                        <div className='pricing-content-div'>
+                        {/* <div className='pricing-content-div'>
                             <p className='pricing-title'>מחירון:</p>
                             <p className='pricing-sub-title'>שיר: ₪450</p>
                             <p className='pricing-sub-title'>ברכות משפחה: ₪300</p>
@@ -31,7 +31,7 @@ export default function LandingSection() {
                             <p className='pricing-sub-title'>ברכת כלה: ₪300</p>
                             <p className='pricing-sub-title'>שיר משפחתי עד 4 אנשים: ₪600</p>
                             <p className='pricing-warning'>המחירים עלולים להשתנות בהתאם למבצעי החודש.</p>
-                        </div>
+                        </div> */}
 
                         <div>
                             <p className='pricing-title'>קצת על אופן ביצוע ההקלטה:</p>
