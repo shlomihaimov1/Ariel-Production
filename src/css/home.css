@@ -42,7 +42,6 @@
     font-size: 110%;
     font-weight: 600;
     margin-right: 10%;
-    width: 90%;
     text-decoration: underline;
 }
 
@@ -51,7 +50,8 @@
     font-size: 110%;
     font-weight: 600;
     margin-right: 10%;
-    width: 90%;
+    margin-bottom: 10px;
+    /* width: 90%; */
 }
 
 /* About */
@@ -107,7 +107,7 @@
     justify-content: space-between;
     align-items: center;
     /* background-color: #333; */
-    padding: 2rem;
+    padding: 2rem 0;
     color: #fff;
     font-size: 1.2rem;
     direction: rtl;

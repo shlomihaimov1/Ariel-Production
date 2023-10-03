@@ -370,6 +370,11 @@
 	.pricing-content {
 		font-size: 32.5% !important;
 	}
+
+	.nav-links {
+		width: max-content !important;
+    	font-size: 75% !important;
+	}
 }
 
 
@@ -381,6 +386,14 @@
 		display: flex !important;
     	flex-direction: column-reverse !important;
 		font-size: 120% !important;
+	}
+
+	.landing-section-icons {
+		margin-right: 0% !important;
+	}
+
+	.nav-links {
+		padding: 0.2rem !important;
 	}
 
 	.sub-container-video {
