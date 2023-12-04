@@ -45,7 +45,7 @@ export default function LandingSection() {
             <section id='about' className='about'>
                 <div className='mask-about'>
                     <div className='about-wrapper'>
-                        <img className='batul1' src='../assets/images/content/batul2.jpg'></img>
+                        <img className='batul1' src='../assets/images/content/batul2.jpg' alt='אולפן הקלטות, אריאל הפקות, סינגלים לאירועים, הקלטת שירים, בר מצווה, חתונה, דרשות, ברכות, אולפן הקלטות בפתח תקווה, כתיבה והלחנה'></img>
                     </div>
                     <div className='about-wrapper about-content'>
                         <div>

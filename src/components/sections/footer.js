@@ -27,7 +27,7 @@ export default class Footer extends Component {
 							<Col className="col-12 col-md-6 col-lg-3 res-margin">
 								<div className="widget">
 									<a className="footer-logo" href="/"  target="_blank">
-										<img className='footer-logo-img' src="../assets/images/content/Ariel Productions Bg.png" alt="ArielProductionLogo" data-rjs="2" />
+										<img className='footer-logo-img' src="../assets/images/content/Ariel Productions Bg.png" alt="Ariel Production Logo - הלוגו של האתר של אריאל הפקות" data-rjs="2" />
 									</a>
 									<p className='text-direction-rtl'>
 										סטודיו בפתח תקווה המתמחה בהקלטות והפקות מוזיקליות

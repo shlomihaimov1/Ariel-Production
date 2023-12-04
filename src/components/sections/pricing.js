@@ -20,7 +20,7 @@ export default function LandingSection() {
 
                 <div className='mask-pricing'>
                     <div className='pricing-wrapper'>
-                        <img className='batul1' src='../assets/images/content/ariel3.jpg'></img>
+                        <img className='batul1' src='../assets/images/content/ariel3.jpg' alt='אולפן הקלטות, אריאל הפקות, סינגלים לאירועים, הקלטת שירים, בר מצווה, חתונה, דרשות, ברכות, אולפן הקלטות בפתח תקווה, כתיבה והלחנה, תשלום זול, מחיר זול, מחיר נוח'></img>
                     </div>
                     <div className='pricing-wrapper pricing-content'>
                         {/* <div className='pricing-content-div'>
