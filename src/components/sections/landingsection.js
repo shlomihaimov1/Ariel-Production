@@ -19,13 +19,13 @@ export default function LandingSection() {
                 <NavBar />
 
                 <Container className='main-container landing-section-container'>
-                    <Row className='row sub-container-video'>
+                    {/* <Col className='column sub-container-video'>
                         <Video />
-                    </Row>
+                    </Col> */}
 
-                    <Row className='row sub-container-intro'>
+                    <Col className='column sub-container-intro'>
                         <p className='main-title'>Ariel Productions</p>
-                        <p className='sub-title'>אולפן הקלטות המתמחה בהקלטת שירים, ברכות, דרשות, ברכות כלה, כתיבה והלחנה.</p>
+                        <p className='sub-title'>אולפן הקלטות המתמחה בהקלטת שירים, ברכות, דרשות, ברכות כלה, כתיבה, הלחנה, עיבוד והפקה מוזיקלית.</p>
                         
                         {/* <!-- Social links --> */}
                         <div className="footer-social landing-section-icons">
@@ -35,7 +35,7 @@ export default function LandingSection() {
                             <a href="https://www.tiktok.com/@ariel.zur?_t=8gCSnWhuq01&_r=1" target="_blank" title="Tiktok"><i className="fab fa-tiktok"></i></a>
                             <a href="https://wa.me/972542662513"  target="_blank" title="Whatsapp"><i className="fab fa-whatsapp"></i></a>
                         </div>
-                    </Row>
+                    </Col>
 
                 </Container>
 
@@ -74,6 +74,10 @@ export default function LandingSection() {
                                 ובסופו של דבר, נגיע לתוצאה מדהימה.
                             </p>
                         </div>
+
+                        {/* <Col className='column sub-container-video'>
+                            <Video />
+                        </Col> */}
                     </div>
                 </div>
             </section>
