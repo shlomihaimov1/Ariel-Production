@@ -30,7 +30,7 @@ export default class Footer extends Component {
 										<img className='footer-logo-img' src="../assets/images/content/Ariel Productions Bg.png" alt="ArielProductionLogo" data-rjs="2" />
 									</a>
 									<p className='text-direction-rtl'>
-										סטודיו בפתח תקווה המתינה בהקלטות והפקות מוזיקליות
+										סטודיו בפתח תקווה המתמחה בהקלטות והפקות מוזיקליות
 									</p>
 									
 									{/* <!-- Social links --> */}
