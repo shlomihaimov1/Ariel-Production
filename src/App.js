@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import {  BrowserRouter as Router,  Routes,  Route} from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 // Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -93,6 +94,12 @@ function App() {
 
   return (
     <div className='outer-wrapper'>
+        <Helmet>
+          <title>אריאל הפקות - פתח תקווה - אולפן הקלטות</title>
+          <meta name="description" content="אולפן הקלטות בפתח תקווה עם אווירה חמה מחירים נוחים, אשר מתמחה בהפקת סינגלים והקלטות שירים לאירועים, שירי בר מצווה, שירי חופה, דרשות, ברכות של חתן וכלה ועוד." />
+          <meta name="keywords" content="אולפן הקלטות, אריאל הפקות, סינגלים לאירועים, הקלטת שירים, בר מצווה, חתונה, דרשות, ברכות, אולפן הקלטות בפתח תקווה, כתיבה והלחנה" />
+        </Helmet>
+
         <div className='wrapper'>
           <Router>
             <Routes>

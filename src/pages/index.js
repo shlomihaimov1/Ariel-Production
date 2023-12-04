@@ -9,6 +9,7 @@ import Footer from "../components/sections/footer";
 // import ToTop from "../components/sections/ToTop";
 import WhatsUpIcon from "../components/sections/Whatsupicon";
 
+
 const Index = () => (
 
     <Layout 
