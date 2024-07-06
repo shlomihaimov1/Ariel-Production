@@ -4,10 +4,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 // CSS
 import '../../css/home.css';
 
-
 // Components
-import ContactPopUp from './contactpopup';
-
+import Video from '../sections/video1.js';
 
 export default function LandingSection() {
 
@@ -43,13 +41,13 @@ export default function LandingSection() {
                             <p className='pricing-sub-title'><b>6.</b> וסיימנו נערוך את ההקלטה שלכם</p>
                             <p className='pricing-sub-title'><b>7.</b> השיר מוכן וישלח אליכם</p>
                         </div>
+
+                        <Col className='column sub-container-video'>
+                            <Video url={"https://www.youtube.com/embed/k86dWHmK_8k?"} state={'secondary'}/>
+                        </Col>
                     </div>
                 </div>
             </section>
-
-
-
-            <ContactPopUp />
         
         </div>
     );

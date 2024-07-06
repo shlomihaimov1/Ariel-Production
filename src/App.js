@@ -47,12 +47,6 @@ function App() {
 
       if (!unmounted) {      
 
-        // Activate pop up
-        setTimeout(() =>{
-          document.getElementById('contact-popup').style.display = 'block';
-          document.getElementById('contact-popup').style.animation = 'fadeInContact 0.5s';
-        }, 1000);
-
         // Scroll spy    
         if (window.location.pathname === '/') {
             const sections = document.querySelectorAll('section[id]');

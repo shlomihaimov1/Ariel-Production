@@ -11,12 +11,12 @@ SwiperCore.use([Autoplay]);
 const Clients = (props) => {
     return (
         <section id="clients" className={props.className}>
-            
+
             <h3 className='clients-title'>חלק מהלקוחות שלי</h3>
             <p className='clients-sub-title'>במהלך עבודתי יצא לי לעבוד עם לא מעט חברות וזמרים מהתעשייה</p>
-            
+
             {/* <!-- Container --> */}
-            <Container>            
+            <Container>
 
                 <Row>
 
@@ -44,74 +44,55 @@ const Clients = (props) => {
 
                         {/* <!-- Client 1 --> */}
                         <SwiperSlide className="client">
-                            <a href="#">
-                                <img src="../assets/images/content/companys/partner.png" alt="Client 1" />
-                            </a>
+                            <img src="../assets/images/content/companys/partner.png" alt="Client 1" />
                         </SwiperSlide>
 
                         {/* <!-- Client 2 --> */}
                         <SwiperSlide className="client">
-                            <a href="#">
-                                <img src="../assets/images/content/companys/yossigavni.png" alt="Client 2" />
-                            </a>
+                            <img src="../assets/images/content/companys/yossigavni.png" alt="Client 2" />
                         </SwiperSlide>
 
-                         {/* <!-- Client 8 --> */}
-                         <SwiperSlide className="client">
-                            <a href="#">
-                                <img src="../assets/images/content/companys/mor.jpeg" alt="Mor Reviey" />
-                            </a>
+                        {/* <!-- Client 8 --> */}
+                        <SwiperSlide className="client">
+                            <img src="../assets/images/content/companys/mor.jpeg" alt="Mor Reviey" />
                         </SwiperSlide>
-                        
+
                         {/* <!-- Client 4 --> */}
                         <SwiperSlide className="client">
-                            <a href="#">
-                                <img src="../assets/images/content/companys/radiosol.png" alt="Client 4" />
-                            </a>
+                            <img src="../assets/images/content/companys/radiosol.png" alt="Client 4" />
                         </SwiperSlide>
-                    
 
                         {/* <!-- Client 9 --> */}
                         <SwiperSlide className="client">
-                            <a href="#">
-                                <img src="../assets/images/content/companys/shaked.jpeg" alt="Shaked komemy" />
-                            </a>
+                            <img src="../assets/images/content/companys/shaked.jpeg" alt="Shaked komemy" />
                         </SwiperSlide>
 
                         {/* <!-- Client 3 --> */}
                         <SwiperSlide className="client">
-                            <a href="#">
-                                <img src="../assets/images/content/companys/ort.png" alt="Client 3" />
-                            </a>
+                            <img src="../assets/images/content/companys/ort.png" alt="Client 3" />
                         </SwiperSlide>
 
                         {/* <!-- Client 5 --> */}
                         <SwiperSlide className="client">
-                            <a href="#">
-                                <img src="../assets/images/content/companys/reshonlezion.png" alt="Client 5" />
-                            </a>
+                            <img src="../assets/images/content/companys/reshonlezion.png" alt="Client 5" />
                         </SwiperSlide>
 
                         {/* <!-- Client 6 --> */}
                         <SwiperSlide className="client">
-                            <a href="#">
-                                <img src="../assets/images/content/companys/educationoffice.png" alt="Client 6" />
-                            </a>
+                            <img src="../assets/images/content/companys/educationoffice.png" alt="Client 6" />
                         </SwiperSlide>
 
                         {/* <!-- Client 7 --> */}
                         <SwiperSlide className="client">
-                            <a href="#">
-                                <img src="../assets/images/content/companys/electricitycompany.png" alt="Client 7" />
-                            </a>
+                            <img src="../assets/images/content/companys/electricitycompany.png" alt="Client 7" />
                         </SwiperSlide>
 
-                       
+
 
                     </Swiper>
 
                 </Row>
-                    
+
             </Container>
 
         </section>

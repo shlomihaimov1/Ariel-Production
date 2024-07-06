@@ -3,6 +3,7 @@ import Layout from "../components/sections/Layout";
 import LandingSection from "../components/sections/landingsection";
 import Clients from "../components/sections/clients";
 import Pricing from "../components/sections/pricing"
+import Thanks from "../components/sections/thanks"
 import Contact from "../components/sections/contact";
 import Covers from '../components/sections/Covers';
 import Footer from "../components/sections/footer";
@@ -12,14 +13,12 @@ import WhatsUpIcon from "../components/sections/Whatsupicon";
 
 const Index = () => (
 
-    <Layout 
-        pageTitle="Ariel Producion Landing Page" 
-        colorSchema="/assets/colors/blue.css" 
-    > 
+    <Layout pageTitle="Ariel Producion Landing Page" colorSchema="/assets/colors/blue.css"> 
         <LandingSection />
         <Clients />
         <Covers />
         <Pricing />
+        <Thanks />
         <Contact />
         <Footer />
         {/* <ToTop /> */}

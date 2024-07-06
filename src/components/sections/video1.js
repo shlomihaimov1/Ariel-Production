@@ -1,13 +1,16 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-
 import ModalVideo from 'react-modal-video';
 
 // CSS
 import 'react-modal-video/css/modal-video.css';
 import 'react-modal-video/scss/modal-video.scss';
 
-const ParallaxVideo = () => {
+import img_main from '../../assets/images/content/ariel_teach.jpg';
+import img_secondary from '../../assets/images/content/ariel_second.jpg';
+
+
+const ParallaxVideo = ({ url, state }) => {
     const parallax = useRef(null);
     const [isOpen, setOpen] = useState(false);
 
@@ -17,37 +20,42 @@ const ParallaxVideo = () => {
         }
     }, [parallax]);
 
+    const handleOpen = () => {
+        setOpen(true);
+    };
+
     return (
         <>
-            <ModalVideo channel='youtube' videoId="JJHT_oBoHs0" autoplay youtube={{ autoplay: 1, mute: 0 }} isOpen={isOpen} onClose={() => setOpen(false)} />
-            
-            <section id="parallax-video" className="parallax" data-image="../assets/images/content/ariel2.jpg" ref={parallax}>
-        
-                {/* <!-- Overlay --> */}
+            <ModalVideo
+                channel='custom'
+                url={`${url}autoplay=1`}
+                isOpen={isOpen}
+                onClose={() => setOpen(false)}
+            />
+
+            <section id="parallax-video" className={`parallax ${state === 'main' ? 'parallax-custom' : 'parallax-custom-secondary'}`} style={{ height: '100%', width: '80%' }} data-image={state==='main' ? img_main : img_secondary} ref={parallax}>
+                {/* Overlay */}
                 <div className="overlay" />
 
-                {/* <!-- Container --> */}
-                <Container>
-
+                {/* Container */}
+                <div className='overlay-subwrapper'>
                     <Row>
-                        
-                        <div className="video-btn wow fadeInUp" data-wow-offset="10" data-wow-duration="1s" data-wow-delay="0s">              
-            
-                            {/* <!-- Play button --> */}
-                            <a onClick={(e)=> {
-                                e.preventDefault();
-                                return setOpen(true)
-                            }} href="#" data-rel="lightcase" className="play-btn">
+                        <div className="video-btn wow fadeInUp" data-wow-offset="10" data-wow-duration="1s" data-wow-delay="0s">
+                            {/* Play button */}
+                            <a
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    handleOpen();
+                                }}
+                                href="#"
+                                data-rel="lightcase"
+                                className="play-btn"
+                            >
                                 <i className="fas fa-play"></i>
                             </a>
-
-                            {/* <span className="video-text">צפו בסרטון הסבר</span> */}
-
                         </div>
-
                     </Row>
-                </Container>
-
+                </div>
             </section>
         </>
     );

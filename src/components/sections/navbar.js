@@ -13,19 +13,22 @@ export default function Navbar() {
                 <div className='justify-content-center'>
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                        <a className="nav-link nav-links" href="/#landingsection">בית</a>
+                            <a className="nav-link nav-links" href="/#landingsection">בית</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link nav-links" href="/#about">אודות</a>
+                            <a className="nav-link nav-links" href="/#about">אודות</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link nav-links" href="/#pricing">תהליך ההקלטה</a>
+                            <a className="nav-link nav-links" href="/#covers">קאברים שהפקתי</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link nav-links" href="/#covers">קאבים שהפקתי</a>
+                            <a className="nav-link nav-links" href="/#pricing">תהליך ההקלטה</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link nav-links" href="/#contact">צור קשר</a>
+                            <a className="nav-link nav-links" href="/#thanks">פירגונים מלקוחות</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link nav-links" href="/#contact">צור קשר</a>
                         </li>
                     </ul>
                 </div>
