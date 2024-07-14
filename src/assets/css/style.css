@@ -3286,6 +3286,7 @@ footer .widget h6 {
 
 footer .footer-widgets a {
 	color:#b0b0b0;
+	width: 6%;
 }
 
 footer .widget .button-store .custom-btn {
@@ -3333,10 +3334,13 @@ footer .copyright a {
 .footer-social {
 	cursor:default;
 	line-height:1;
+	gap: 4%;
+    display: flex;
+    justify-content: center;
 }
 
 .footer-social a {
-	margin:0 10px;
+	/* margin:0 10px; */
 }
 
 .footer-social a:first-child {
